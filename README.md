@@ -21,7 +21,7 @@ Paillier于1999 年提出概率公钥加密系统，称为Paillier 同态加密[
 - $(p k, s k) \leftarrow KeyGen(Params)$ : 密钥生成函数, 其 中 $p k$ 是对明文加密的公钥、 $s k$ 是对密文解密的私钥。
 - $c \leftarrow E n c(p k, m):$ 加密函数，使用公钥 $p k$ 加密明文信息 $m$，得到密文 $c$ 。
 - $m \leftarrow D e c(s k, c):$ 解密函数, 使用私钥 $s k$ 解密密文 $c$，得到明文 $m$ 。
-- $c^{*} \leftarrow \operatorname{Eval}\left(c_{1}, c_{2}, \cdots, c_{n}\right):$ 密文计算函数, 在密文 $c_{1}, c_{2}, \cdots, c_{n}$ 上计算得到 $c^{*}$ 。密文 $c_{1}, c_{2}, \cdots, c_{n}$ 之间可以相互计算的前提是使用相同的密钥进行加密。
+- $c^{*} \leftarrow \operatorname{Eval}\left(c_{1}, c_{2}, \cdots, c_{n}\right): $ 密文计算函数, 在密文 $ c_{1}, c_{2}, \cdots, c_{n} $ 上计算得到 $ c^{*} $ 。密文 $ c_{1}, c_{2}, \cdots, c_{n} $ 之间可以相互计算的前提是使用相同的密钥进行加密。
 
 ## 三、同态加密的分类
 
