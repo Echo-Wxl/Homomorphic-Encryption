@@ -35,7 +35,7 @@ PHE的特点是，要求其加密操作符运算只需要满足加密同态或�
 
 对于在明文空间M中的任意两个元素 $\mathrm{u}$ 和 $\mathrm{v}$, 其加密结果分别为 $[[\mathrm{u}]]$ 和 $[[\mathrm{v}]]$, 满足:
 $$
-\operatorname{Dec}_{\mathrm{sk}}([[u]]+[[v]])=\operatorname{Dec}_{\mathrm{sk}}([[u+v]])=u+v .
+\operatorname{Dec}_{\mathrm{sk}}([[u]]+[[v]])=\operatorname{Dec}_{\mathrm{sk}}([[u+v]])=u+v
 $$
 即是加法同态加密。Paillier在1999年提出了一种可证的安全加法同态加密算法，该算法的具体过程如下：
 
@@ -205,11 +205,11 @@ def paillier_he():
 
 ## 参考文献
 
-[1^]:R. L. Rivest, L. Adleman, M. L. Dertouzos. On data banks and privacy homomorphisms[J].Foundations of Secure Computation, 1978, 11: 169-180(同态加密的提出1978)
+[1^]: R. L. Rivest, L. Adleman, M. L. Dertouzos. On data banks and privacy homomorphisms[J].Foundations of Secure Computation, 1978, 11: 169-180
 
-[^2]: R. L. Rivest, A. Shamir, L. Adleman. A method for obtaining digital signatures andpublic-key cryptosystems[J]. Communications of the ACM, 1978, 21(2): 120-126(RSA算法)
-[^3]: PAILLIEＲ P． Public-key cryptosystems based on compositedegree residuosity classes［C］/ /Proceedings of InternationalConference on the Theory and Applications of CryptographicTechniques． Berlin，Germany: Springer， 1999:223-238．(paillier同态加密)
-[^4]: C. Gentry. Fully homomorphic encryption using ideal lattices[D].Palo Alto: Stanford University, 2009, 169-178(全同态)
+[^2]: R. L. Rivest, A. Shamir, L. Adleman. A method for obtaining digital signatures andpublic-key cryptosystems[J]. Communications of the ACM, 1978, 21(2): 120-126
+[^3]: PAILLIEＲ P． Public-key cryptosystems based on compositedegree residuosity classes［C］/ /Proceedings of InternationalConference on the Theory and Applications of CryptographicTechniques． Berlin，Germany: Springer， 1999:223-238．
+[^4]: C. Gentry. Fully homomorphic encryption using ideal lattices[D].Palo Alto: Stanford University, 2009, 169-178
 [^5]: 陈智罡，王箭. 全同态密码研究. 计算机应用研究. 2014.06 
 [^6]: 杨强，黄安埠，刘洋等. 联邦学习实战[M]. 电子工业出版社，2021.
 
