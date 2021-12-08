@@ -155,7 +155,7 @@ SHE通过添加噪声的方式提高安全性。密文上的每一次操作都�
 
 目前有很多同态加密的开源算法库，如微软的[SEAL](https://github.com/microsoft/SEAL)，随后陈智罡博士团队开发了一个将SEAL全同态加密库映射到Python上的接口[PySEAL](https://github.com/Huelse/SEAL-Python)，解决了机器学习库与全同态加密库对接的问题，还有IBM的同台密码开源库[HElib](https://github.com/homenc/HElib)等，两者都是实现了BFV和CKKS方案。
 
-本文也实现了python版本的paillier同态加密算法，实现代码请见[phe](./phe)
+本文参考[python-paillier](https://github.com/data61/python-paillier)实现了python版本的paillier同态加密算法，实现代码请见[phe](./phe)
 
 以下测试paillier同态加密的性质：
 
@@ -211,6 +211,7 @@ def paillier_he():
 4. C. Gentry. Fully homomorphic encryption using ideal lattices[D].Palo Alto: Stanford University, 2009, 169-178
 5. 陈智罡，王箭. 全同态密码研究. 计算机应用研究. 2014.06 
 6. 杨强，黄安埠，刘洋等. 联邦学习实战[M]. 电子工业出版社，2021.
+7. https://github.com/data61/python-paillier
 
 
 
